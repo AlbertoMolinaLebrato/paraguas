@@ -1,0 +1,207 @@
+/* Estilos generales */
+body {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+  /* Estilos para el header */
+.header {
+    background-color: #ffb937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  .header__logo img {
+    height: 40px;
+    width: 40px;
+    padding-bottom: 15px;
+  }
+  
+  .header__nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  .header__nav li:not(:last-child) {
+    margin-right: 1rem;
+    font-size: 20px;
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+  }
+  
+  .header__nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .header__nav a:hover {
+    text-decoration: underline;
+  }
+  
+  .header__nav-item a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* Estilos para el banner */
+  .banner {
+    background-color: #ffd28e;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 400px;
+  }
+  
+  .Fotobanner {
+    background-image: url("https://images8.alphacoders.com/412/412257.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+  }
+  
+  .textobanner h1 {
+    font-size: 3rem;
+    color: #FFF;
+    padding: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  .textobanner p {
+    font-size: 1rem;
+    color: #FFF;
+    padding: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .banner__text p {
+    font-size: 1.2rem;
+    color: #FFF;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .botonprimario {
+    background-color: #ffb937;
+    color: #FFF;
+    border-color: rgb(255, 255, 128) rgb(255, 255, 128) orange orange;
+    border-width: 5px;
+    border-style: solid;
+    border-style: outset;
+    padding: 1rem ;
+    font-size: 1.2rem;
+    cursor: pointer;
+    font-family:'Franklin Gothic Medium bold', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .botonprimario:hover {
+    background-color: #C71585;
+  }
+  
+  /* Estilos para los productos destacados */
+  .destacados {
+    background-color: #FFF;
+    padding: 2rem;
+  }
+  
+  .destacados h2{
+    font-family:'Franklin Gothic Medium bold', 'Arial Narrow', Arial, sans-serif;
+
+  }
+  .titulodestacados {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .productosdestacados {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .producto {
+    width: 30%;
+    background-color: #F0E68C;
+    padding: 1rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-family:'Franklin Gothic Medium bold', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  .producto img {
+    max-width: 100%;
+    width: 100%;
+}
+
+  .tituloproducto {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #696969;
+  }
+  
+  .precioproducto {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: #696969;
+  }
+  
+  .botonsecundario {
+    background-color: #20B2AA;
+    color: #FFF;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  /* Estilos para la sección de newsletter */
+  .noticias {
+    background-color: #ffb937;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    font-family:'Franklin Gothic Medium bold', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .titulonoticias {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #FFF;
+  }
+  
+  .subtitulonoticias {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+    color: #FFF;
+  }
+  
+  .formularionoticias {
+    display: flex;
+    align-items: center;
+  }
+  
+  .newsletter__form label {
+    font-size: 1.2rem;
+    color: #FFF;
+  }
+  
+  .newsletter__form input[type="email"] {
+    padding: 0.5rem;
+    margin-right: 1rem;
+    border-radius: 5px;
+    border: none;
+  }

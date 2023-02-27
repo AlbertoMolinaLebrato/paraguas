@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Tienda de Paraguas</title>
+    <link rel="stylesheet" href="contacto.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header__logo">
+            <img src="https://cdn-icons-png.flaticon.com/128/1254/1254171.png" alt="Tienda de Paraguas">
+        </div>
+        <nav class="header__nav">
+            <ul>
+                <li><a href="Inicio.html">Inicio</a></li>
+                <li><a href="Productos.html">Productos</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="Contacto.html">Contacto</a></li>
+                <li><a href="noticias.html">Noticias</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contacto -->
+<section class="contact">
+    <h2 class="contact__title">Contáctanos</h2>
+    <p class="contact__subtitle">¿Tienes alguna pregunta o comentario? Escríbenos y te responderemos lo antes posible.</p>
+    <form class="contact__form">
+        <div class="form-group">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+            <label for="subject">Asunto:</label>
+            <input type="text" id="subject" name="subject" required>
+        </div>
+        <div class="form-group">
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" required></textarea>
+        </div>
+        <button type="submit" class="button button--primary">Enviar</button>
+    </form>
+</section>
+
+    <!-- Newsletter -->
+    <section class="noticias">
+        <h2 class="titulonoticias">Suscríbete a nuestro newsletter</h2>
+        <p class="subtitulonoticias">Recibe noticias y promociones especiales en tu correo electrónico.</p>
+        <form class="formularionoticias">
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" placeholder="Ingresa tu correo electrónico"> &nbsp &nbsp &nbsp 
+            <button type="submit" class="botonprimario">Suscribirme</button>
+        </form>
+    </section>
+</body>
+</html>
